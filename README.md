@@ -1,6 +1,6 @@
 # UI-COLIEE 2025 – Task 3: Statute Law Retrival  
 
-We participated in **Task 3: Statute Law Retrival  ** of the Competition on Legal Information Extraction/Entailment (COLIEE) and submitted 3 runs with different approach.
+We participated in **Task 3: Statute Law Retrieval** of the Competition on Legal Information Extraction/Entailment (COLIEE) and submitted 3 runs with different approach.
 
 | Run-ID        | One-line description                          |
 | --------------| --------------------------------------------- |
