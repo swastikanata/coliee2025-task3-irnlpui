@@ -1,4 +1,3 @@
-This code is the implementation of methods proposed by IRNLPUI at COLIEE 2025 for task 3 (Statute Law retrieval).
 # UI-COLIEE 2025 – Task 3: Statute Law Retrival  
 
 We participated in **Task 3: Statute Law Retrival  ** of the Competition on Legal Information Extraction/Entailment (COLIEE) and submitted 3 runs with different approach.
@@ -23,18 +22,10 @@ We participated in **Task 3: Statute Law Retrival  ** of the Competition on Lega
 
 ## 3. Data
 
-The organisers provide the raw XML for pairs of relevant question and article, and raw txt for the civil code document.
+The organizers provide the following datasets for training and evaluation:
 
-We publish the *processed* CSV used in our code here:  
-
-data/COLIEE_dataset_H30-R02.csv
-
-Columns:
-
-* `id`                 – numerical id  
-* `t1`, `t2`           – English statute & hypothesis  
-* `t1_japan`, `t2_japan` – Japanese originals  
-* `label`              – ground-truth (Y/N) where available  
+- **Relevant Pairs (XML)**: Located in `data/train/`, this directory contains XML files with pairs of legal questions and their corresponding relevant articles.
+- **Civil Code (TXT)**: The full English version of the civil code (Articles 1 to 724-2) is available at `data/civil_code_en-1to724-2.txt`.
 
 ---
 
